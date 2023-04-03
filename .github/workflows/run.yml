@@ -2,9 +2,6 @@ name: run MedalHelper
 
 on:
     workflow_dispatch:
-    schedule:
-        - cron: "05 04 * * *"
-
 jobs:
     MedalHelper:
         runs-on: ubuntu-latest
